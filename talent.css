@@ -1,0 +1,347 @@
+@import url(https://www.cdnfonts.com/averta-blackitalic.font@Averta-RegularItalicItalic400);
+    
+
+* {
+    box-sizing: border-box;
+    font-family: 'Averta-RegularItalic', sans-serif;
+    /*overflow: hidden;*/
+}
+
+a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #eb5850;
+}
+body {
+    width: 99% max-content;
+    margin: 0%!important;
+
+}
+
+header{
+    height: 10vh;
+    /* background-color: brown; */
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1100;
+}
+.logo2{
+    margin-top: 8px;
+    margin-left: 98px;
+    margin-bottom: 5px;
+    position: relative;
+    /* font-size: 40%; */
+    width: 10%;
+}
+
+header  a {
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 1rem;
+    position: relative;
+    left: 28rem;
+    margin: 12px 70px 0 5px;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+header a:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.849);
+    background-color: rgb(200, 235, 240);
+    margin-top: 5px;
+}
+header a:first-of-type {
+    margin-left: 2rem;
+}
+.btn-talent {
+    position: relative;
+    color: white;
+    background-color: #E7332B;
+    font-size: 1rem;
+    border-style: none;
+    width: 11vw;
+    height: 6vh;
+    margin-left: 26rem;
+    border-bottom-right-radius: 8px ;
+    margin-top: 5px;
+}
+.home {
+    border-bottom: 3px solid #E7332B;
+    width: 58px;
+
+}
+.fig{
+    display: flex;
+    height: 80vh;
+    flex-flow: row wrap;
+    width: auto;
+}
+.figure {
+    display: flex;
+    /* padding: 0 100px 0 100px; */
+    padding-top: 60px;
+    flex-direction: row;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+}
+.part{
+    width: 50%;
+    height: 45vh;
+    /* flex-direction: row; */
+    padding-top: 50px;
+    padding-left: 50px;
+    margin: 0;
+    /* flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0; */
+}
+.part1 {
+    letter-spacing: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 50vw;
+}
+.part1 span{
+    color: #E7332B;
+}
+.line1 {
+    margin-left: 432px;
+    margin-top: -55px;
+}
+.line1 img{
+    width: 30%;
+}
+.part2 {
+    width: 33vw;
+    font-size: 1.3rem;
+    color: rgb(138, 135, 135);
+}
+.button-box {
+    width: 35vw;
+    height: 7vh;
+    padding: 20px 0px 20px 0px;
+}
+.btn-talents {
+    position: relative;
+    color: white;
+    background-color: #E7332B;
+    font-size: 1rem;
+    border-style: none;
+    width: 14vw;
+    height: 6vh;
+    border-bottom-right-radius: 8px ;
+}
+.btn-pool {
+    position: relative;
+    color: white;
+    background-color: rgb(73, 69, 69);
+    font-size: 1.1rem;
+    border-style: none;
+    width: 14vw;
+    margin-left: 15px;
+    height: 6vh;
+    border-bottom-right-radius: 8px ;
+}
+.person{
+    width: 50vw;
+    flex-direction: row;
+    height: 60vh;
+    padding-top: 80px;
+
+}
+.personal{
+    width: 40vw;
+    /* margin-left: 5px; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+.image1{
+    width: 70% !important;
+}
+.line2 {
+    /* margin-left: 320px; */
+    margin-top: -155px;
+    mix-blend-mode: soft-light!important;
+    position: relative;
+
+    
+    /* position: absolute!important; */
+    right: 0;
+}
+.lines {
+    width: 20%;
+    margin-left: 500px;
+    
+    
+}
+div{
+    display: block;
+}
+.section1{
+    margin-top: 100px;
+    background-image: url(./Talent/img/bgsection2.063bd869082548bafa74.png)!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+.box1{
+    padding-bottom: 125px!important;
+    padding-top: 90px!important;
+}
+.sects{
+    margin: auto!important;
+    max-width: 1440px!important;
+    width: 90%;
+}
+.sect{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    margin-top: -24px;
+    width: calc(100%);
+    margin-left: -24px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.count{
+    padding-left: 24px;
+}
+.county{
+    height: 58vh;
+    display: flex;
+    flex-direction: row;
+}
+.impa{
+    padding-left: 24px;
+    padding-top: 24px;
+}
+.impact{
+    margin-top: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 0.00938em;
+    color: black;
+    width: 40vw;
+}
+.impact span{
+    color: #E7332B;
+}
+
+.train{
+    margin-top: -150px;
+    /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.00938em;
+    color: black;
+    width: 30vw;
+}
+.place{
+    margin-top: -15px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(151, 144, 144);
+
+}
+.globe{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    width: 78%;
+    
+}
+.country {
+    background-color: #fff!important;
+    border-radius: 8px!important;
+    display: flex;
+    margin-right: 16px;
+    padding: 7px!important;
+    width: 55px;
+}
+.country img{
+    width: 75%;
+    margin: auto;
+}
+.perso{
+    width: 40vw;
+    /* margin-left: 5px; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+.image2{
+    width: 70% !important;
+}
+
+/* media query */
+
+@media screen and (min-width: 600px){
+
+.cs-head{
+    min-height: 64px;
+}
+
+}
+
+@media screen and (min-width: 600px){
+.cs-head {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+}
+
+.cs-head{
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    min-height: 56px;
+
+}
+@media (min-width: 1200px){
+.figure{
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+}
+}
+@media (min-width: 900px){
+.figure {
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+}
+@media (min-width: 600px){
+.figure {
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+}
+@media screen and (max-width: 2600px){
+.line1 {
+    margin-left: 432px;
+    margin-top: -24px;
+}
+}
+/* .css-tletg0 {
+    box-sizing: border-box;
+    margin: 0px;
+   
+    max-width: 100%;
+} */
