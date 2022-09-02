@@ -4,6 +4,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Averta-RegularItalic', sans-serif;
+    margin: 0;
     /*overflow: hidden;*/
 }
 
@@ -141,18 +142,21 @@ section.activity {
     margin: 0 auto;
     /*max-width: 1240px;*/
     text-align: center;
-    /*border: 1px solid red;*/
+    height: 80vh;
 }
 
 .training-card {
-    /*height: 511px;*/
-    width: 76%;
+    height: 70vh;
+    width: 80%;
     /*border: 1px solid red;*/
     background-color: #FFFAFA;
-    padding: 28px 30px 65px 20px;
-    text-align: justify-all;
+    padding: 15px 20px 35px 10px;
+    /* text-align: justify-all; */
     margin: 0 auto;
     
+}
+.training-card h3{
+    text-align: start;
 }
 .text-center{
     text-align: center!important;
@@ -167,8 +171,8 @@ section.activity {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 45px 25px;
-    gap: 10px;
+    padding: 20px 10px 20px 10px;
+    /* gap: 10px; */
     width: 100%;
     height: 80vh;
     left: 3px;
@@ -219,7 +223,7 @@ img.card-bg-svg-2 {
 }
 
 .footer {
-    margin-top: 215px;
+    margin-top: 115px;
 }
 
 .footer-flex-container {
@@ -279,6 +283,8 @@ footer hr {
     padding-bottom: 97px;
 }
 
+
+ /* Tablet Screen  */
 @media (max-width: 768px) {
 
     .main-container {
@@ -303,14 +309,19 @@ footer hr {
         margin-bottom: 50px;
         margin-left: -20px;
     }
+    .training {
+        height: 200vh;
+    }
     .row{
         display: grid;
-        padding: 30px 20px 45px 18px;
+        padding: 20px 10px 5px 10px;
+        gap: 40px;
+        height: 180vh;
        
     }
     .training-card {
-        padding: 30px 20px 45px 18px;
-        justify-items: space-between;
+        padding: 10px 10px 25px 8px;
+        
     }
 
 
@@ -343,3 +354,214 @@ footer hr {
 
 
 }
+
+ /* Mobile Screen (Large) */
+@media (max-width: 425px) {
+
+    .main-container {
+        height: auto;
+    }
+
+    img.logo-img {
+        display: block;
+        padding-top: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .main h2 {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .btn-div {
+        display: grid;
+        margin-bottom: 50px;
+        margin-left: -20px;
+    }
+    .training {
+        height: 220vh;
+    }
+    .row{
+        display: grid;
+        padding: 20px 10px 5px 10px;
+        gap: 40px;
+       
+    }
+    .training-card {
+        padding: 10px 10px 25px 8px;
+        
+    }
+
+
+    button.my-btn {
+        display: block;
+        margin: auto;
+        justify-content: center;
+    }
+
+    h3.heading {
+        margin-top: 60px !important;
+    }
+
+    .footer-flex-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .footer-flex-container h3 {
+        font-size: 24px;
+        margin-top: 20px;
+
+    }
+
+
+}
+
+ /* Mobile Screen (Medium) */
+@media (max-width: 375px) {
+
+    .main-container {
+        height: auto;
+    }
+
+    img.logo-img {
+        display: block;
+        padding-top: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .main h2 {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .btn-div {
+        display: grid;
+        margin-bottom: 50px;
+        margin-left: -20px;
+    }
+    .training {
+        height: 220vh;
+    }
+    .row{
+        display: grid;
+        padding: 20px 10px 5px 10px;
+        gap: 40px;
+       
+    }
+    .training-card {
+        padding: 10px 10px 25px 8px;
+        
+    }
+
+
+    button.my-btn {
+        display: block;
+        margin: auto;
+        justify-content: center;
+    }
+
+    h3.heading {
+        margin-top: 60px !important;
+    }
+
+    .footer-flex-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .footer-flex-container h3 {
+        font-size: 24px;
+        margin-top: 20px;
+
+    }
+
+
+}
+
+/* Mobile Screen (Small) */
+@media (max-width: 320px) {
+
+    .main-container {
+        height: auto;
+    }
+
+    img.logo-img {
+        display: block;
+        padding-top: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .main h2 {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .btn-div {
+        display: grid;
+        margin-bottom: 50px;
+        margin-left: -20px;
+    }
+    .training {
+        height: 230vh;
+    }
+    .row{
+        display: grid;
+        padding: 20px 10px 5px 10px;
+        gap: 40px;
+       
+    }
+    .training-card {
+        padding: 10px 10px 25px 8px;
+        
+    }
+
+
+    button.my-btn {
+        display: block;
+        margin: auto;
+        justify-content: center;
+    }
+
+    h3.heading {
+        margin-top: 60px !important;
+    }
+
+    .footer-flex-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .footer-flex-container h3 {
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+
+
+}
+
