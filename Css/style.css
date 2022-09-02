@@ -510,7 +510,7 @@ footer hr {
     }
 
     .main h2 {
-        font-size: 28px;
+        font-size: 26px;
         line-height: 34px;
         text-align: center;
     }
@@ -519,6 +519,11 @@ footer hr {
         display: grid;
         margin-bottom: 50px;
         margin-left: -20px;
+    }
+    .activity-content p.desc {
+        font-size: 20px;
+        line-height: 40px;
+
     }
     .training {
         height: 230vh;
@@ -557,7 +562,7 @@ footer hr {
     }
 
     .footer-flex-container h3 {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 20px;
 
     }
